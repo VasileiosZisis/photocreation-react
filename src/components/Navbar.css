@@ -1,0 +1,28 @@
+nav {
+  font-family: 'Open Sans', sans-serif;
+  width: 200px;
+}
+
+nav img {
+  display: block;
+  width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  text-align: end;
+  padding-right: 0.5rem;
+}
+
+nav ul > * {
+  line-height: 2.5rem;
+}
+
+nav li {
+  cursor: default;
+}
+
+nav a {
+  color: var(--black);
+  display: block;
+}
