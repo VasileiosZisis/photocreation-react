@@ -1,6 +1,8 @@
 nav {
   font-family: 'Open Sans', sans-serif;
   width: 200px;
+  background-color: var(--white);
+  position: relative;
 }
 
 nav img {
@@ -11,7 +13,6 @@ nav img {
 nav ul {
   width: 100%;
   text-align: end;
-  padding-right: 0.5rem;
 }
 
 nav ul > * {
@@ -20,9 +21,56 @@ nav ul > * {
 
 nav li {
   cursor: default;
+  padding-right: 0.2rem;
+  transition: 0.4s;
+}
+
+nav li:hover {
+  background-color: var(--red);
 }
 
 nav a {
   color: var(--black);
   display: block;
+  transition: 0.2s;
+  padding-right: 1.3rem;
+}
+
+.text {
+  padding-right: 0.4rem;
+}
+
+.arrow-container {
+  padding-right: 0.4rem;
+}
+
+.arrow {
+  border: solid var(--black);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3.5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+/* DROPDOWN */
+
+.dropdown-content {
+  display: none;
+  margin-left: 1%;
+  width: max-content;
+  position: absolute;
+  background-color: var(--white);
+  z-index: 2;
+}
+
+.dropdown-content a {
+  padding-inline: 0.8rem;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
 }
