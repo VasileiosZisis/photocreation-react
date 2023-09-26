@@ -12,43 +12,43 @@ import './Navbar.css'
 
 const Navbar = () => {
   const cypriotWeddingslist = cypriotWeddings.map(couple => (
-    <li>
+    <li id={couple.id}>
       <Link to={couple.to}>{couple.name}</Link>
     </li>
   ))
 
   const englishWeddingslist = englishWeddings.map(couple => (
-    <li>
+    <li id={couple.id}>
       <Link to={couple.to}>{couple.name}</Link>
     </li>
   ))
 
   const weddingStoriesList = weddingStories.map(couple => (
-    <li>
+    <li id={couple.id}>
       <Link to={couple.to}>{couple.name}</Link>
     </li>
   ))
 
   const christeningsList = christenings.map(couple => (
-    <li>
+    <li id={couple.id}>
       <Link to={couple.to}>{couple.name}</Link>
     </li>
   ))
 
   const proposalsList = proposals.map(couple => (
-    <li>
+    <li id={couple.id}>
       <Link to={couple.to}>{couple.name}</Link>
     </li>
   ))
 
   const familiesList = families.map(couple => (
-    <li>
+    <li id={couple.id}>
       <Link to={couple.to}>{couple.name}</Link>
     </li>
   ))
 
   const modelsList = models.map(couple => (
-    <li>
+    <li id={couple.id}>
       <Link to={couple.to}>{couple.name}</Link>
     </li>
   ))

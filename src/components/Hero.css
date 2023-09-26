@@ -1,7 +1,8 @@
 .image-gallery {
+  width: 100%;
+  padding: 1.5rem;
   background-color: var(--white);
   background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1636566609/studiophotocreation/noise-new-transparent_zixdxd.webp');
-  -ms-display: grid;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -11,7 +12,6 @@
 
 .div-photo img {
   width: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 2%;
   box-shadow: 0px 0px 10px var(--black);
