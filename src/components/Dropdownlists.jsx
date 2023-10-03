@@ -3,7 +3,8 @@ import { v4 as uuidv4 } from 'uuid'
 export const cypriotWeddings = [
   {
     to: '/cypriot-weddings/Christina-Andreas',
-    name: 'Christina-Andreas'
+    name: 'Christina-Andreas',
+    id: uuidv4()
   },
   {
     to: '/cypriot-weddings/Jennifer-Xaris',

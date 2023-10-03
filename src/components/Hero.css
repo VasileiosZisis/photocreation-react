@@ -1,5 +1,6 @@
 .image-gallery {
-  width: 100%;
+  /* width: 100%; */
+  position: relative;
   padding: 1.5rem;
   background-color: var(--white);
   background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1636566609/studiophotocreation/noise-new-transparent_zixdxd.webp');
