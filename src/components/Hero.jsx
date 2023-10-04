@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './Hero.css'
 import Box from '@mui/material/Box'
 import ImageList from '@mui/material/ImageList'
 import ImageListItem from '@mui/material/ImageListItem'
 import Lightbox from 'react-awesome-lightbox'
-import 'react-awesome-lightbox/build/style.css'
+import './style.css'
 
 const itemData = [
   {
@@ -75,6 +75,10 @@ function MasonryImageList () {
   const handleClick = () => {
     setShowModal(!showModal)
   }
+  useEffect(() => {
+    const body = document.querySelector('body')
+    body.style.overflow = showModal ? 'hidden' : 'auto'
+  }, [showModal])
   return (
     <>
       <Box
@@ -102,7 +106,13 @@ function MasonryImageList () {
         </ImageList>
       </Box>
       {showModal && (
-        <Lightbox images={itemData} onClose={handleClick} startIndex={index} />
+        <Lightbox
+          images={itemData}
+          onClose={handleClick}
+          startIndex={index}
+          allowRotate={false}
+          doubleClickZoom={0}
+        />
       )}
     </>
   )
