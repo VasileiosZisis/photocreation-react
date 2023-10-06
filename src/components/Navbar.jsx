@@ -8,6 +8,7 @@ import {
   families,
   models
 } from './Dropdownlists.jsx'
+import Hamburger from './Hamburger.jsx'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -118,6 +119,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
+      <Hamburger />
     </header>
   )
 }

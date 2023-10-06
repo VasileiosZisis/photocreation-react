@@ -5,6 +5,7 @@
   --white: #f7f7f7;
   --black: #202020;
   --red: #be0000;
+  --trans-norm: 0.4s;
 }
 
 * {

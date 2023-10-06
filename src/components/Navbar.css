@@ -22,7 +22,7 @@ nav ul > * {
 nav li {
   cursor: default;
   padding-right: 0.2rem;
-  transition: 0.4s;
+  transition: var(--trans-norm);
 }
 
 nav li:hover {
@@ -32,7 +32,7 @@ nav li:hover {
 nav a {
   color: var(--black);
   display: block;
-  transition: 0.2s;
+  transition: var(--trans-norm);
   padding-right: 1.3rem;
 }
 
