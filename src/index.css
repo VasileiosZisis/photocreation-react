@@ -4,7 +4,7 @@
 :root {
   --white: #f7f7f7;
   --black: #202020;
-  --red: #be0000;
+  --grey: #d8d8d8;
   --trans-norm: 0.4s;
 }
 
@@ -27,4 +27,11 @@ body {
 
 main {
   display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 50em) {
+  main {
+    flex-direction: column;
+  }
 }
