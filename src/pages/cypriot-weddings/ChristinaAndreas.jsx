@@ -1,6 +1,4 @@
 import MasonryImageList from '../../components/Gallery.jsx'
-import Navbar from '../../components/Navbar'
-import '../../index.css'
 
 const itemData = [
   {
@@ -11,11 +9,6 @@ const itemData = [
 ]
 
 const ChristinaAndreas = () => {
-  return (
-    <main>
-      <Navbar />
-      <MasonryImageList itemData={itemData} />
-    </main>
-  )
+  return <MasonryImageList itemData={itemData} />
 }
 export default ChristinaAndreas

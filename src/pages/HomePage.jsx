@@ -1,5 +1,3 @@
-import Navbar from '../components/Navbar'
-import '../index.css'
 import MasonryImageList from '../components/Gallery.jsx'
 
 const itemData = [
@@ -231,11 +229,6 @@ const itemData = [
 ]
 
 const HomePage = () => {
-  return (
-    <main>
-      <Navbar />
-      <MasonryImageList itemData={itemData} />
-    </main>
-  )
+  return <MasonryImageList itemData={itemData} />
 }
 export default HomePage
