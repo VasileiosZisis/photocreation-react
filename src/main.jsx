@@ -20,6 +20,23 @@ import DenikaDavid from './pages/english-weddings/DenikaDavid.jsx'
 import DianneTerry from './pages/english-weddings/DianneTerry.jsx'
 import KristenJames from './pages/english-weddings/KristenJames.jsx'
 import MeganLee from './pages/english-weddings/MeganLee.jsx'
+import RebeccaAlvaro from './pages/english-weddings/RebeccaAlvaro.jsx'
+import RhianSean from './pages/english-weddings/RhianSean.jsx'
+import SophieJack from './pages/english-weddings/SophieJack.jsx'
+import Ew2019 from './pages/english-weddings/ew2019.jsx'
+import AmyDaniel from './pages/wedding-stories/AmyDaniel.jsx'
+import BethDavid from './pages/wedding-stories/BethDavid.jsx'
+import FarrahMatthew from './pages/wedding-stories/FarrahMatthew.jsx'
+import GemmaKane from './pages/wedding-stories/GemmaKane.jsx'
+import JadeCraig from './pages/wedding-stories/JadeCraig.jsx'
+import JemmaCarl from './pages/wedding-stories/JemmaCarl.jsx'
+import KatrinaScott from './pages/wedding-stories/KatrinaScott.jsx'
+import LauraLeigh from './pages/wedding-stories/LauraLeigh.jsx'
+import LauraRobert from './pages/wedding-stories/LauraRobert.jsx'
+import LaurenBen from './pages/wedding-stories/LaurenBen.jsx'
+import LaurenSimon from './pages/wedding-stories/LaurenSimon.jsx'
+import LisaDarren from './pages/wedding-stories/LisaDarren.jsx'
+import StaceyAaron from './pages/wedding-stories/StaceyAaron.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -39,6 +56,24 @@ const router = createBrowserRouter(
       <Route path='Dianne-Terry' element={<DianneTerry />} />
       <Route path='Kristen-James' element={<KristenJames />} />
       <Route path='Megan-Lee' element={<MeganLee />} />
+      <Route path='Rebecca-Alvaro' element={<RebeccaAlvaro />} />
+      <Route path='Rhian-Sean' element={<RhianSean />} />
+      <Route path='Sophie-Jack' element={<SophieJack />} />
+      <Route path='2019' element={<Ew2019 />} />
+      {/* WEDDING STORIES */}
+      <Route path='Amy-Daniel' element={<AmyDaniel />} />
+      <Route path='Beth-David' element={<BethDavid />} />
+      <Route path='Farrah-Matthew' element={<FarrahMatthew />} />
+      <Route path='Gemma-Kane' element={<GemmaKane />} />
+      <Route path='Jade-Craig' element={<JadeCraig />} />
+      <Route path='Jemma-Carl' element={<JemmaCarl />} />
+      <Route path='Katrina-Scott' element={<KatrinaScott />} />
+      <Route path='Laura-Leigh' element={<LauraLeigh />} />
+      <Route path='Laura-Robert' element={<LauraRobert />} />
+      <Route path='Lauren-Ben' element={<LaurenBen />} />
+      <Route path='Lauren-Simon' element={<LaurenSimon />} />
+      <Route path='Lisa-Darren' element={<LisaDarren />} />
+      <Route path='Stacey-Aaron' element={<StaceyAaron />} />
     </Route>
   )
 )

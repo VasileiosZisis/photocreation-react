@@ -66,7 +66,7 @@ export const weddingStories = [
   { to: '/Jade-Craig', name: 'Jade-Craig', id: uuidv4() },
   { to: '/Jemma-Carl', name: 'Jemma-Carl', id: uuidv4() },
   { to: '/katrina-Scott', name: 'katrina-Scott', id: uuidv4() },
-  { to: '/aura-leigh', name: 'Aura-Leigh', id: uuidv4() },
+  { to: '/Laura-Leigh', name: 'Laura-Leigh', id: uuidv4() },
   { to: '/Laura-Robert', name: 'Laura-Robert', id: uuidv4() },
   { to: '/Lauren-Ben', name: 'Lauren-Ben', id: uuidv4() },
   { to: '/Lauren-Simon', name: 'Lauren-Simon', id: uuidv4() },
