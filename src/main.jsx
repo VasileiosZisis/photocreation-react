@@ -37,6 +37,18 @@ import LaurenBen from './pages/wedding-stories/LaurenBen.jsx'
 import LaurenSimon from './pages/wedding-stories/LaurenSimon.jsx'
 import LisaDarren from './pages/wedding-stories/LisaDarren.jsx'
 import StaceyAaron from './pages/wedding-stories/StaceyAaron.jsx'
+import Agapi from './pages/christenings/Agapi.jsx'
+import Ioanna from './pages/christenings/Ioanna.jsx'
+import Maria from './pages/christenings/Maria.jsx'
+import Marilia from './pages/christenings/Marilia.jsx'
+import Stylianos from './pages/christenings/Stylianos.jsx'
+import Victoria from './pages/christenings/Victoria.jsx'
+import Xara from './pages/christenings/Xara.jsx'
+import AndreasAthina from './pages/proposals/AndreasAthina.jsx'
+import ChiragPriyanka from './pages/proposals/ChiragPriyanka.jsx'
+import AlexGianna from './pages/families/AlexGianna.jsx'
+import AlexXenia from './pages/families/AlexXenia.jsx'
+import AlexanderYiana from './pages/families/AlexanderYiana.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -74,6 +86,21 @@ const router = createBrowserRouter(
       <Route path='Lauren-Simon' element={<LaurenSimon />} />
       <Route path='Lisa-Darren' element={<LisaDarren />} />
       <Route path='Stacey-Aaron' element={<StaceyAaron />} />
+      {/* CHISTENINGS */}
+      <Route path='Agapi' element={<Agapi />} />
+      <Route path='Ioanna' element={<Ioanna />} />
+      <Route path='Maria' element={<Maria />} />
+      <Route path='Marilia' element={<Marilia />} />
+      <Route path='Stylianos' element={<Stylianos />} />
+      <Route path='Victoria' element={<Victoria />} />
+      <Route path='Xara' element={<Xara />} />
+      {/* PROPOSALS */}
+      <Route path='Andreas-Athina' element={<AndreasAthina />} />
+      <Route path='Chirag-Priyanka' element={<ChiragPriyanka />} />
+      {/* FAMILIES */}
+      <Route path='Alex-Gianna' element={<AlexGianna />} />
+      <Route path='Alex-Xenia' element={<AlexXenia />} />
+      <Route path='Alexander-Yiana' element={<AlexanderYiana />} />
     </Route>
   )
 )

@@ -79,7 +79,7 @@ export const christenings = [
   { to: '/Ioanna', name: 'Ioanna', id: uuidv4() },
   { to: '/Maria', name: 'Maria', id: uuidv4() },
   { to: '/Marilia', name: 'Marilia', id: uuidv4() },
-  { to: 'christenings/Stylianos', name: 'Stylianos', id: uuidv4() },
+  { to: '/Stylianos', name: 'Stylianos', id: uuidv4() },
   { to: '/Victoria', name: 'Victoria', id: uuidv4() },
   { to: '/Xara', name: 'Xara', id: uuidv4() }
 ]
