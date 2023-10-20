@@ -49,6 +49,24 @@ import ChiragPriyanka from './pages/proposals/ChiragPriyanka.jsx'
 import AlexGianna from './pages/families/AlexGianna.jsx'
 import AlexXenia from './pages/families/AlexXenia.jsx'
 import AlexanderYiana from './pages/families/AlexanderYiana.jsx'
+import AngelikaMisha from './pages/families/AngelikaMisha.jsx'
+import BaskhkimShkourte from './pages/families/BaskhkimShkourte.jsx'
+import FilipposEmanouela from './pages/families/FilipposEmanouela.jsx'
+import GalinaLionid from './pages/families/GalinaLionid.jsx'
+import IouliaAlexey from './pages/families/IouliaAlexey.jsx'
+import JuliaSofia from './pages/families/JuliaSofia.jsx'
+import MariaNatalie from './pages/families/MariaNatalie.jsx'
+import RiannaRalf from './pages/families/RiannaRalf.jsx'
+import RouslanIrina from './pages/families/RouslanIrina.jsx'
+import SofieIoulia from './pages/families/SofieIoulia.jsx'
+import Anna from './pages/models/Anna.jsx'
+import DandD from './pages/models/DandD.jsx'
+import Elena from './pages/models/Elena.jsx'
+import Johanna from './pages/models/Johanna.jsx'
+import Karlin from './pages/models/Karlin.jsx'
+import Natalie from './pages/models/Natalie.jsx'
+import Olga from './pages/models/Olga.jsx'
+import Sveta from './pages/models/Sveta.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -101,6 +119,25 @@ const router = createBrowserRouter(
       <Route path='Alex-Gianna' element={<AlexGianna />} />
       <Route path='Alex-Xenia' element={<AlexXenia />} />
       <Route path='Alexander-Yiana' element={<AlexanderYiana />} />
+      <Route path='Angelika-Misha' element={<AngelikaMisha />} />
+      <Route path='Baskhkim-Shkourte' element={<BaskhkimShkourte />} />
+      <Route path='Filippos-Emanouela' element={<FilipposEmanouela />} />
+      <Route path='Galina-Lionid' element={<GalinaLionid />} />
+      <Route path='Ioulia-Alexey' element={<IouliaAlexey />} />
+      <Route path='Julia-Sofia' element={<JuliaSofia />} />
+      <Route path='Maria-Natalie' element={<MariaNatalie />} />
+      <Route path='Rianna-Ralf' element={<RiannaRalf />} />
+      <Route path='Rouslan-Irina' element={<RouslanIrina />} />
+      <Route path='Sofie-Ioulia' element={<SofieIoulia />} />
+      {/* MODELS */}
+      <Route path='Anna' element={<Anna />} />
+      <Route path='D-&-D' element={<DandD />} />
+      <Route path='Elena' element={<Elena />} />
+      <Route path='Johanna' element={<Johanna />} />
+      <Route path='Karlin' element={<Karlin />} />
+      <Route path='Natalie' element={<Natalie />} />
+      <Route path='Olga' element={<Olga />} />
+      <Route path='Sveta' element={<Sveta />} />
     </Route>
   )
 )

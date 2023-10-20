@@ -119,7 +119,6 @@ export const models = [
   { to: '/Elena', name: 'Elena', id: uuidv4() },
   { to: '/Johanna', name: 'Johanna', id: uuidv4() },
   { to: '/Karlin', name: 'Karlin', id: uuidv4() },
-  { to: '/Anna', name: 'Anna', id: uuidv4() },
   { to: '/Natalie', name: 'Natalie', id: uuidv4() },
   { to: '/Olga', name: 'Olga', id: uuidv4() },
   { to: '/Sveta', name: 'Sveta', id: uuidv4() }
