@@ -1,0 +1,21 @@
+.footer {
+  padding: 1rem;
+  text-align: center;
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: var(--white);
+  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1636566609/studiophotocreation/noise-new-transparent_zixdxd.webp');
+}
+
+.sign {
+  font-size: 1rem;
+}
+
+.sign a {
+  color: var(--black);
+}
+
+.sign a:where(:hover, :focus) {
+  text-decoration: underline;
+}
