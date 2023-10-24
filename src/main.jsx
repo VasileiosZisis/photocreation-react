@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import App from './App.jsx'
 import HomePage from './pages/HomePage'
+import ContactPage from './pages/ContactPage.jsx'
 import ChristinaAndreas from './pages/cypriot-weddings/ChristinaAndreas.jsx'
 import JenniferXaris from './pages/cypriot-weddings/JenniferXaris.jsx'
 import KataAndreas from './pages/cypriot-weddings/KataAndreas.jsx'
@@ -72,6 +73,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index path='/' element={<HomePage />} />
+      <Route path='/contact' element={<ContactPage />} />
       {/* CYPRIOT WEDDINGS */}
       <Route path='Christina-Andreas' element={<ChristinaAndreas />} />
       <Route path='Jennifer-Xaris' element={<JenniferXaris />} />

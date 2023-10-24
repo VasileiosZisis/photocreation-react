@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import {
   cypriotWeddings,
@@ -14,43 +14,43 @@ import './Navbar.css'
 const Navbar = () => {
   const cypriotWeddingslist = cypriotWeddings.map(couple => (
     <li key={couple.id}>
-      <Link to={couple.to}>{couple.name}</Link>
+      <NavLink to={couple.to}>{couple.name}</NavLink>
     </li>
   ))
 
   const englishWeddingslist = englishWeddings.map(couple => (
     <li key={couple.id}>
-      <Link to={couple.to}>{couple.name}</Link>
+      <NavLink to={couple.to}>{couple.name}</NavLink>
     </li>
   ))
 
   const weddingStoriesList = weddingStories.map(couple => (
     <li key={couple.id}>
-      <Link to={couple.to}>{couple.name}</Link>
+      <NavLink to={couple.to}>{couple.name}</NavLink>
     </li>
   ))
 
   const christeningsList = christenings.map(couple => (
     <li key={couple.id}>
-      <Link to={couple.to}>{couple.name}</Link>
+      <NavLink to={couple.to}>{couple.name}</NavLink>
     </li>
   ))
 
   const proposalsList = proposals.map(couple => (
     <li key={couple.id}>
-      <Link to={couple.to}>{couple.name}</Link>
+      <NavLink to={couple.to}>{couple.name}</NavLink>
     </li>
   ))
 
   const familiesList = families.map(couple => (
     <li key={couple.id}>
-      <Link to={couple.to}>{couple.name}</Link>
+      <NavLink to={couple.to}>{couple.name}</NavLink>
     </li>
   ))
 
   const modelsList = models.map(couple => (
     <li key={couple.id}>
-      <Link to={couple.to}>{couple.name}</Link>
+      <NavLink to={couple.to}>{couple.name}</NavLink>
     </li>
   ))
 
@@ -100,61 +100,61 @@ const Navbar = () => {
         <nav className='mobile'>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to='/'>Home</NavLink>
             </li>
             <li className='m-dropdown hidden' onClick={e => handleHidden(e)}>
               <span className='text'>Cypriot Weddings</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='m-dropdown-content'>{cypriotWeddingslist}</ul>
             </li>
             <li className='m-dropdown hidden' onClick={e => handleHidden(e)}>
               <span className='text'>English Weddings</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='m-dropdown-content'>{englishWeddingslist}</ul>
             </li>
             <li className='m-dropdown hidden' onClick={e => handleHidden(e)}>
               <span className='text'>Wedding Stories</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='m-dropdown-content'>{weddingStoriesList}</ul>
             </li>
             <li className='m-dropdown hidden' onClick={e => handleHidden(e)}>
               <span className='text'>Christenings</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='m-dropdown-content'>{christeningsList}</ul>
             </li>
             <li className='m-dropdown hidden' onClick={e => handleHidden(e)}>
               <span className='text'>Proposals</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='m-dropdown-content'>{proposalsList}</ul>
             </li>
             <li className='m-dropdown hidden' onClick={e => handleHidden(e)}>
               <span className='text'>Families</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='m-dropdown-content'>{familiesList}</ul>
             </li>
             <li className='m-dropdown hidden' onClick={e => handleHidden(e)}>
               <span className='text'>Models</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='m-dropdown-content'>{modelsList}</ul>
             </li>
             <li>
-              <Link className='link' to='/'>
+              <NavLink className='NavLink' to='/contact'>
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -162,59 +162,59 @@ const Navbar = () => {
         <nav className='desktop'>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to='/'>Home</NavLink>
             </li>
             <li className='dropdown'>
               <span className='text'>Cypriot Weddings</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='dropdown-content'>{cypriotWeddingslist}</ul>
             </li>
             <li className='dropdown'>
               <span className='text'>English Weddings</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='dropdown-content'>{englishWeddingslist}</ul>
             </li>
             <li className='dropdown'>
               <span className='text'>Wedding Stories</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='dropdown-content'>{weddingStoriesList}</ul>
             </li>
             <li className='dropdown'>
               <span className='text'>Christenings</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='dropdown-content'>{christeningsList}</ul>
             </li>
             <li className='dropdown'>
               <span className='text'>Proposals</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='dropdown-content'>{proposalsList}</ul>
             </li>
             <li className='dropdown'>
               <span className='text'>Families</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='dropdown-content'>{familiesList}</ul>
             </li>
             <li className='dropdown'>
               <span className='text'>Models</span>
               <span className='arrow-container'>
-                <span className='arrow right'></span>
+                <span className='arrow'></span>
               </span>
               <ul className='dropdown-content'>{modelsList}</ul>
             </li>
             <li>
-              <Link to='/'>Contact</Link>
+              <NavLink to='/contact'>Contact</NavLink>
             </li>
           </ul>
         </nav>

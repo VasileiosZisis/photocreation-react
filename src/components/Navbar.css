@@ -24,12 +24,17 @@ header img {
 .desktop li {
   line-height: 2.5rem;
   cursor: default;
-  padding-right: 0.2rem;
   transition: var(--trans-norm);
 }
 
 .desktop li:where(:hover, :focus) {
   background-color: var(--grey);
+  color: var(--white);
+}
+
+.desktop a.active {
+  background-color: var(--grey);
+  color: var(--white);
 }
 
 .desktop a {
@@ -37,6 +42,11 @@ header img {
   display: block;
   transition: var(--trans-norm);
   padding-right: 1.3rem;
+}
+
+.desktop a:where(:hover, :focus) {
+  background-color: var(--grey);
+  color: var(--white);
 }
 
 .text {
@@ -52,9 +62,6 @@ header img {
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 3.5px;
-}
-
-.right {
   transform: rotate(-45deg);
 }
 
@@ -69,9 +76,18 @@ header img {
   z-index: 2;
 }
 
+.dropdown-content li {
+  padding-right: 0rem;
+}
+
 .dropdown-content a {
   padding-inline: 0.8rem;
   text-align: left;
+}
+
+.dropdown-content a:where(:hover, :focus) {
+  background-color: var(--grey);
+  color: var(--white);
 }
 
 .dropdown:where(:hover, :focus) .dropdown-content {
