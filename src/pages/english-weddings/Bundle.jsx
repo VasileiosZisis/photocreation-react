@@ -523,7 +523,7 @@ const itemData = [
   }
 ]
 
-const Ew2019 = () => {
+const Bundle = () => {
   return <MasonryImageList itemData={itemData} />
 }
-export default Ew2019
+export default Bundle

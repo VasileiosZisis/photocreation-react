@@ -24,7 +24,7 @@ import MeganLee from './pages/english-weddings/MeganLee.jsx'
 import RebeccaAlvaro from './pages/english-weddings/RebeccaAlvaro.jsx'
 import RhianSean from './pages/english-weddings/RhianSean.jsx'
 import SophieJack from './pages/english-weddings/SophieJack.jsx'
-import Ew2019 from './pages/english-weddings/ew2019.jsx'
+import Bundle from './pages/english-weddings/Bundle.jsx'
 import AmyDaniel from './pages/wedding-stories/AmyDaniel.jsx'
 import BethDavid from './pages/wedding-stories/BethDavid.jsx'
 import FarrahMatthew from './pages/wedding-stories/FarrahMatthew.jsx'
@@ -91,7 +91,7 @@ const router = createBrowserRouter(
       <Route path='Rebecca-Alvaro' element={<RebeccaAlvaro />} />
       <Route path='Rhian-Sean' element={<RhianSean />} />
       <Route path='Sophie-Jack' element={<SophieJack />} />
-      <Route path='2019' element={<Ew2019 />} />
+      <Route path='2019' element={<Bundle />} />
       {/* WEDDING STORIES */}
       <Route path='Amy-Daniel' element={<AmyDaniel />} />
       <Route path='Beth-David' element={<BethDavid />} />
