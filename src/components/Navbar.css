@@ -4,7 +4,6 @@ header {
 }
 
 nav {
-  font-family: 'Open Sans', sans-serif;
   width: 250px;
   background-color: var(--white);
 }

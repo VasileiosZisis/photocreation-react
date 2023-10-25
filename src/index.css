@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 :root {
   --white: #f7f7f7;
@@ -21,14 +20,20 @@
 
 html,
 body {
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
-  font-family: 'Playfair Display', serif;
   background-color: var(--white);
 }
 
 main {
   display: flex;
   flex-direction: row;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 @media only screen and (max-width: 50em) {

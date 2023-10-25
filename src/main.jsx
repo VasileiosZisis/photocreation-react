@@ -9,6 +9,7 @@ import {
 import App from './App.jsx'
 import HomePage from './pages/HomePage'
 import ContactPage from './pages/ContactPage.jsx'
+import ErrorPage from './pages/ErrorPage.jsx'
 import ChristinaAndreas from './pages/cypriot-weddings/ChristinaAndreas.jsx'
 import JenniferXaris from './pages/cypriot-weddings/JenniferXaris.jsx'
 import KataAndreas from './pages/cypriot-weddings/KataAndreas.jsx'
@@ -140,6 +141,7 @@ const router = createBrowserRouter(
       <Route path='Natalie' element={<Natalie />} />
       <Route path='Olga' element={<Olga />} />
       <Route path='Sveta' element={<Sveta />} />
+      <Route path='*' element={<ErrorPage />} />
     </Route>
   )
 )
