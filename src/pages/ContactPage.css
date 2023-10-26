@@ -12,7 +12,6 @@
   align-items: center;
   text-align: center;
   background-color: var(--white);
-  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1636566609/studiophotocreation/noise-new-transparent_zixdxd.webp');
 }
 
 .title-contact {
@@ -23,7 +22,6 @@
 .contact-details {
   padding-block: 3rem;
   background-color: var(--black);
-  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1650729681/studiophotocreation/black-noise_ta3g1g.webp');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +46,6 @@
 .contact-final {
   padding-block: 3rem;
   background-color: var(--red);
-  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1636566609/studiophotocreation/noise-new-transparent_zixdxd.webp');
   padding-top: 5rem;
   display: grid;
   grid-template-columns: 50% 50%;
