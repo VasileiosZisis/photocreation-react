@@ -2,13 +2,8 @@
   padding: 1rem;
   text-align: center;
   color: var(--black);
-  font-size: 1.2rem;
   font-weight: bold;
   background-color: var(--white);
-}
-
-.sign {
-  font-size: 1rem;
 }
 
 .sign a {
