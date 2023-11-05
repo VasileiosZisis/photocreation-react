@@ -1,199 +1,49 @@
 header {
-  width: 250px;
+  z-index: 99;
+}
+
+.nav-img-div {
+  text-align: center;
+}
+
+.nav-img {
+  width: 350px;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  height: 1.5rem;
+}
+
+.nav-li {
+  border: none;
+  transition: all ease-in-out var(--trans-norm);
   position: relative;
 }
 
-nav {
-  width: 250px;
-  background-color: var(--white);
-}
-header img {
-  display: block;
-  width: 100%;
-}
-.mobile {
-  display: none;
-}
-.desktop {
-  display: flex;
-  flex-direction: column;
-  text-align: end;
+.nav-li:where(:hover, :focus) {
+  border: none;
 }
 
-.desktop li {
-  line-height: 2.5rem;
-  cursor: default;
-  transition: var(--trans-norm);
-}
-
-.desktop li:where(:hover, :focus) {
-  background-color: var(--grey);
-  color: var(--white);
-}
-
-.custom-active-class {
-  background-color: var(--grey);
-  color: var(--white);
-}
-
-.desktop a.active {
-  background-color: var(--grey);
-  color: var(--white);
-}
-
-.desktop a {
+.navlink {
   color: var(--black);
-  display: block;
-  transition: var(--trans-norm);
-  padding-right: 1.3rem;
+  font-size: 1.1rem;
 }
 
-.desktop a:where(:hover, :focus) {
-  background-color: var(--grey);
-  color: var(--white);
-}
-
-.desktop li:where(:hover, :focus) .arrow {
-  border: solid var(--white);
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3.5px;
-  transform: rotate(-45deg);
-}
-
-.text {
-  padding-right: 0.4rem;
-}
-
-.arrow-container {
-  padding-right: 0.4rem;
-}
-
-.arrow {
-  border: solid var(--black);
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3.5px;
-  transform: rotate(-45deg);
-}
-
-/* DROPDOWN */
-
-.dropdown-content {
-  display: none;
-  width: max-content;
+.nav-li::after {
+  content: '';
   position: absolute;
-  background-color: var(--white);
-  z-index: 2;
-}
-
-.dropdown-content li {
-  padding-right: 0rem;
-}
-
-.dropdown-content a {
-  padding-inline: 0.8rem;
-  text-align: left;
-}
-
-.dropdown-content a:where(:hover, :focus) {
-  background-color: var(--grey);
-  color: var(--white);
-}
-
-.dropdown:where(:hover, :focus) .dropdown-content {
-  display: inline-block;
-}
-
-/* MOBILE STYLES */
-
-@media only screen and (max-width: 50em) {
-  .desktop {
-    display: none;
-  }
-  .mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: transparent;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  header {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  header img {
-    width: 300px;
-    height: 200px;
-  }
-  .m-dropdown {
-    line-height: 2.5rem;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  .mobile a {
-    line-height: 2.5rem;
-    font-weight: bold;
-    color: var(--black);
-  }
-  .m-dropdown.hidden > ul {
-    display: none;
-  }
-}
-
-/* HAMBURGER STYLES */
-
-.hamburger {
-  display: none;
-  cursor: pointer;
-  background: transparent;
-  padding-bottom: 1rem;
-}
-
-.bar {
-  display: block;
-  width: max(4rem, 5vw);
-  height: 5px;
-  margin: 5px;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
+  width: 0px;
+  height: 2px;
+  left: 50%;
+  bottom: 0;
   background-color: var(--black);
+  transition: all ease-in-out var(--trans-norm);
 }
-
-.screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-
-.hamburger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-.hamburger.active .bar:nth-child(1) {
-  transform: translateY(17px) rotate(45deg);
-}
-.hamburger.active .bar:nth-child(3) {
-  transform: translateY(-15px) rotate(-45deg);
-}
-
-@media only screen and (max-width: 50em) {
-  .hamburger {
-    display: block;
-  }
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
-  }
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-10px) rotate(-45deg);
-  }
+.nav-li:hover::after {
+  width: 100%;
+  left: 0;
 }

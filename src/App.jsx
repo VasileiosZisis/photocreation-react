@@ -5,13 +5,11 @@ import './index.css'
 
 function App () {
   return (
-    <main>
+    <>
       <Navbar />
-      <div className='content'>
-        <Outlet />
-        <Footer />
-      </div>
-    </main>
+      <Outlet />
+      <Footer />
+    </>
   )
 }
 
