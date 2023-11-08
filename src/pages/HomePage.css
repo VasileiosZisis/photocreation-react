@@ -27,28 +27,31 @@ main {
 }
 
 .contact-section {
-  background-color: var(--grey);
+  background-image: url('./SPC_0012_shk4fz.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  min-height: 100vh;
+  background-color: var(--grey);
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 15%;
+  gap: 25%;
 }
 
 .contact-h1 {
   font-size: 3rem;
   color: var(--white);
   font-family: 'Playfair Display', serif;
+  padding-top: -20%;
 }
 
 .contact-a {
   color: var(--white);
+  background-color: var(--black);
   padding: 8px 16px;
-  margin-top: 5rem;
   width: fit-content;
   font-size: 1.5rem;
   border: 2px solid var(--white);
@@ -56,5 +59,20 @@ main {
 }
 
 .contact-a:where(:hover, :focus) {
-  background-color: var(--black);
+  background-color: var(--grey);
+}
+
+@media only screen and (max-device-width: 50em) {
+  .categories-section {
+    background-image: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    height: fit-content;
+  }
+  .contact-h1 {
+    font-size: 2rem;
+  }
 }
