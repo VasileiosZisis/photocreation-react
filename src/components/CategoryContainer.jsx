@@ -13,7 +13,7 @@ const CategoryContainer = ({
     top: top,
     left: left,
     width: `calc(100vw - ${width}%)`,
-    height: `calc(100% - ${height}%)`
+    height: height
   }
   const h3Size = {
     position: 'absolute',

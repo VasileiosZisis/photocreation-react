@@ -15,6 +15,37 @@ const HomePage = () => {
           </video>
         </div>
       </section>
+      <section className='transition-section'>
+        <p className='transition-p-left'>
+          Providing you the&nbsp;
+          <br /> <span className='transition-span'>finest footage</span>&nbsp;of
+        </p>
+        <img
+          className='transition-image-left'
+          src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632242600/studiophotocreation/cypriot-weddings/jennifer-xaris/SPC_0655_lgvyls.webp'
+        />
+        <p className='transition-p-right'>
+          your&nbsp;
+          <span className='transition-span'>
+            wedding <br />
+            christening
+            <br /> anniversary
+          </span>
+          &nbsp;or
+        </p>
+        <img
+          className='transition-image-mid'
+          src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632244008/studiophotocreation/cypriot-weddings/maria-lampros/SPC_2355_v7jz5e.webp'
+        />
+        <p className='transition-p-bottom'>
+          any other <span className='transition-span'>celebration</span> <br />
+          &nbsp;in photo and video
+        </p>
+        <img
+          className='transition-image-right'
+          src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632242635/studiophotocreation/cypriot-weddings/kata-andreas/SPC_1741_bmmhfi.webp'
+        />
+      </section>
       <section className='categories-section'>
         <CategoryContainer
           src={
@@ -22,7 +53,7 @@ const HomePage = () => {
           }
           title={'CYPRIOT WEDDINGS'}
           width={65}
-          height={80}
+          height={'20%'}
           top={'10%'}
           left={'15%'}
         />
@@ -32,7 +63,7 @@ const HomePage = () => {
           }
           title={'ENGLISH WEDDINGS'}
           width={70}
-          height={70}
+          height={'30%'}
           top={'7%'}
           left={'60%'}
         />
@@ -42,7 +73,7 @@ const HomePage = () => {
           }
           title={'CHRISTENINGS'}
           width={70}
-          height={80}
+          height={'20%'}
           top={'35%'}
           left={'10%'}
         />
@@ -52,7 +83,7 @@ const HomePage = () => {
           }
           title={'PROPOSALS'}
           width={65}
-          height={80}
+          height={'20%'}
           top={'42%'}
           left={'50%'}
         />
@@ -62,7 +93,7 @@ const HomePage = () => {
           }
           title={'FAMILIES'}
           width={70}
-          height={70}
+          height={'30%'}
           top={'62%'}
           left={'10%'}
         />
@@ -72,21 +103,29 @@ const HomePage = () => {
           }
           title={'MODELS'}
           width={70}
-          height={80}
+          height={'20%'}
           top={'68%'}
           left={'55%'}
         />
       </section>
       <section className='contact-section'>
-        <h1 className='contact-h1'>
-          <i>
-            LET'S TALK AND
-            <br /> PLAN YOUR WEDDING
-          </i>
-        </h1>
-        <a href='/' className='contact-a'>
-          CONTACT NOW
-        </a>
+        <div className='contact-image-container'>
+          <img
+            className='contact-image'
+            src='https://res.cloudinary.com/dmdbza74n/image/upload/v1636567848/studiophotocreation/proposals/Antreas-Athina/SPC_0084_df2zky.webp'
+          />
+        </div>
+        <div className='contact-div'>
+          <h1 className='contact-h1'>
+            <i>
+              LET'S TALK AND
+              <br /> PLAN YOUR WEDDING
+            </i>
+          </h1>
+          <a href='/' className='contact-a'>
+            CONTACT NOW
+          </a>
+        </div>
       </section>
     </main>
   )

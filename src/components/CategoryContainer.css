@@ -78,7 +78,7 @@
 
   .mobile .categories-h3 {
     z-index: 11;
-    font-size: 3.5vw;
+    font-size: 2rem;
     color: var(--white);
     font-family: 'Playfair Display', serif;
   }
