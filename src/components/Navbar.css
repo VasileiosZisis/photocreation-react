@@ -2,6 +2,12 @@ header {
   z-index: 99;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .nav-img-div {
   display: flex;
   flex-direction: column;
@@ -19,7 +25,9 @@ header {
 .nav-ul-desktop {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 2.2rem;
   height: 1.5rem;
 }
@@ -37,6 +45,22 @@ header {
 .navlink {
   color: var(--black);
   font-size: 1.1rem;
+}
+
+.contact-link {
+  margin-left: -1rem;
+  padding: 0.2rem 1rem;
+  background-color: var(--grey);
+  font-size: 1.1rem;
+}
+
+.contact-link-a {
+  color: var(--white);
+  transition: all ease-in-out var(--trans-norm);
+}
+
+.contact-link-a:where(:hover, :focus) {
+  color: var(--black);
 }
 
 .nav-li::after {
@@ -68,6 +92,10 @@ header {
   }
   .nav-ul-mobile > li {
     padding: 0.5rem;
+  }
+  .contact-link {
+    margin-top: 5px;
+    margin-left: 0;
   }
 }
 

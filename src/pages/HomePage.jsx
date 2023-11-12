@@ -122,7 +122,7 @@ const HomePage = () => {
               <br /> PLAN YOUR WEDDING
             </i>
           </h1>
-          <a href='/' className='contact-a'>
+          <a href='/contact' className='contact-a'>
             CONTACT NOW
           </a>
         </div>

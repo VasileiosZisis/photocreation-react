@@ -70,6 +70,11 @@ const Navbar = () => {
                 Models
               </NavLink>
             </li>
+            <li className='contact-link'>
+              <NavLink className='contact-link-a' to='/contact'>
+                Contact
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>

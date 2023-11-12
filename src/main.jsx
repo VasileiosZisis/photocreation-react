@@ -8,11 +8,15 @@ import {
 } from 'react-router-dom'
 import App from './App.jsx'
 import HomePage from './pages/HomePage'
+import ErrorPage from './pages/ErrorPage'
+import ContactPage from './pages/ContactPage'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route index path='/' element={<HomePage />} />
+      <Route path='/contact' element={<ContactPage />} />
+      <Route path='*' element={<ErrorPage />} />
     </Route>
   )
 )

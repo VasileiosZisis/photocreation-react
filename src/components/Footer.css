@@ -1,8 +1,25 @@
 .footer-section {
   background-color: var(--white);
-  padding: 1rem;
   text-align: center;
   color: var(--black);
+  border-top: 1px solid var(--grey);
+}
+
+.footer-icons {
+  padding-block: 1rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: all var(--trans-norm);
+}
+
+.footer-icon:where(:hover, :focus) {
+  fill: var(--grey);
+}
+
+.footer-text-div {
+  padding-block: 1rem 1rem;
   border-top: 1px solid var(--grey);
 }
 
