@@ -8,6 +8,16 @@ nav {
   text-align: center;
 }
 
+nav a.active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0%;
+  bottom: 0;
+  background-color: var(--grey);
+}
+
 .nav-img-div {
   display: flex;
   flex-direction: column;
@@ -60,6 +70,10 @@ nav {
 }
 
 .contact-link-a:where(:hover, :focus) {
+  color: var(--black);
+}
+
+.contact-link-a-active {
   color: var(--black);
 }
 

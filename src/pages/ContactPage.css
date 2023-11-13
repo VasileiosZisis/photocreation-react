@@ -93,7 +93,7 @@ hr::after {
 
 @media only screen and (max-device-width: 50em) {
   .contactPage-page {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 
   .main-contactPage {

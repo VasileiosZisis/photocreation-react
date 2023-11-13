@@ -41,37 +41,42 @@ const Navbar = () => {
         <div>
           <ul className={toggleOpen ? 'nav-ul-mobile' : 'nav-ul-desktop'}>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/'>
+              <NavLink className='navlink' to='/cypriot-weddings'>
                 Cypriot Weddings
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/'>
+              <NavLink className='navlink' to='/english-weddings'>
                 English Weddings
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/'>
+              <NavLink className='navlink' to='/christenings'>
                 Christenings
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/'>
+              <NavLink className='navlink' to='/proposals'>
                 Proposals
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/'>
+              <NavLink className='navlink' to='/families'>
                 Families
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/'>
+              <NavLink className='navlink' to='/models'>
                 Models
               </NavLink>
             </li>
             <li className='contact-link'>
-              <NavLink className='contact-link-a' to='/contact'>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? 'contact-link-a-active' : 'contact-link-a'
+                }
+                to='/contact'
+              >
                 Contact
               </NavLink>
             </li>

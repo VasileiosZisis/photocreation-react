@@ -155,6 +155,10 @@ main {
 }
 
 @media only screen and (max-device-width: 50em) {
+  .video-section {
+    margin-top: 1rem;
+  }
+
   .categories-section {
     background-image: none;
     display: flex;
