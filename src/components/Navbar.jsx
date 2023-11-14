@@ -6,31 +6,29 @@ const Navbar = () => {
   const [toggleOpen, setToggleOpen] = useState(false)
 
   const handleOpen = e => {
-    e.stopPropagation()
     setToggleOpen(!toggleOpen)
     if (!toggleOpen) {
-      e.currentTarget.classList.add('active')
       e.currentTarget.setAttribute('aria-expanded', 'true')
     } else {
-      e.currentTarget.classList.remove('active')
       e.currentTarget.setAttribute('aria-expanded', 'false')
     }
   }
+  const toggle = () => setToggleOpen(!toggleOpen)
 
   return (
     <header>
       <nav>
         <div className='nav-img-div'>
-          <NavLink to='/'>
+          <NavLink to='/' onClick={toggle}>
             <img
               className='nav-img'
               src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632158213/studiophotocreation/logo-black_uw3ade.png'
             />
           </NavLink>
           <button
-            aria-expanded='false'
-            className='hamburger'
             onClick={e => handleOpen(e)}
+            aria-expanded='false'
+            className={`hamburger ${toggleOpen ? 'active' : ''}`}
           >
             <span className='bar' aria-hidden='true'></span>
             <span className='bar' aria-hidden='true'></span>
@@ -39,34 +37,42 @@ const Navbar = () => {
           </button>
         </div>
         <div>
-          <ul className={toggleOpen ? 'nav-ul-mobile' : 'nav-ul-desktop'}>
+          <ul className={`nav-ul ${toggleOpen ? 'show' : ''}`}>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/cypriot-weddings'>
+              <NavLink
+                className='navlink'
+                to='/cypriot-weddings'
+                onClick={toggle}
+              >
                 Cypriot Weddings
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/english-weddings'>
+              <NavLink
+                className='navlink'
+                to='/english-weddings'
+                onClick={toggle}
+              >
                 English Weddings
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/christenings'>
+              <NavLink className='navlink' to='/christenings' onClick={toggle}>
                 Christenings
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/proposals'>
+              <NavLink className='navlink' to='/proposals' onClick={toggle}>
                 Proposals
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/families'>
+              <NavLink className='navlink' to='/families' onClick={toggle}>
                 Families
               </NavLink>
             </li>
             <li className='nav-li'>
-              <NavLink className='navlink' to='/models'>
+              <NavLink className='navlink' to='/models' onClick={toggle}>
                 Models
               </NavLink>
             </li>
@@ -76,6 +82,7 @@ const Navbar = () => {
                   isActive ? 'contact-link-a-active' : 'contact-link-a'
                 }
                 to='/contact'
+                onClick={toggle}
               >
                 Contact
               </NavLink>
