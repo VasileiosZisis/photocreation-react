@@ -84,7 +84,17 @@ const contactPage = () => {
       </section>
       <section className='contactPage-final'>
         <div className='address'>
-          <p className='address-text'>Apostolou Pavlou 14A Paphos CY 8046</p>
+          <div className='icon-address-div'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              height='2rem'
+              viewBox='0 0 384 512'
+              fill='#f7f7f7'
+            >
+              <path d='M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z' />
+            </svg>
+            <p className='address-text'>Apostolou Pavlou 14A Paphos CY 8046</p>
+          </div>
           <img
             src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632245788/studiophotocreation/Location_1_ordr1u.webp'
             alt='Front view of the photostudio in paphos'

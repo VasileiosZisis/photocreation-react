@@ -1,3 +1,15 @@
+.loader {
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.loader h2 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
 .image-gallery {
   margin-top: 5rem;
   overflow: hidden;

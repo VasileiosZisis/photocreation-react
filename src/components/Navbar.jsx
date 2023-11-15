@@ -19,7 +19,7 @@ const Navbar = () => {
     <header>
       <nav>
         <div className='nav-img-div'>
-          <NavLink to='/' onClick={toggle}>
+          <NavLink to='/' onClick={toggle} className='nav-img-a'>
             <img
               className='nav-img'
               src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632158213/studiophotocreation/logo-black_uw3ade.png'
