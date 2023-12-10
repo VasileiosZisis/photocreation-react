@@ -1,5 +1,6 @@
 import './HomePage.css'
 import CategoryContainer from '../components/CategoryContainer'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -122,9 +123,9 @@ const HomePage = () => {
               <br /> PLAN YOUR WEDDING
             </i>
           </h1>
-          <a href='/contact' className='contact-a'>
+          <Link to='/contact' className='contact-a'>
             CONTACT NOW
-          </a>
+          </Link>
         </div>
       </section>
     </main>

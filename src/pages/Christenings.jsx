@@ -2,229 +2,614 @@ import MasonryImageList from '../components/Gallery.jsx'
 
 const itemData = [
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242769/studiophotocreation/cypriot-weddings/maria-andreas/DJI_0025_vpbcjv.webp',
-    alt: "A photo from Maria's and Andreas's wedding",
-    title: 'Maria and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230268/studiophotocreation/ch_2v/SPC_0966_phsn9n.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242665/studiophotocreation/cypriot-weddings/kata-andreas/SPC_1903_dcqo69.webp',
-    alt: "A photo from Kata's and Andreas's wedding",
-    title: 'Kata and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230261/studiophotocreation/ch_2v/SPC_0962_ll1zyl.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243187/studiophotocreation/english-weddings/kristen-james/SPC_0516_wxkvdp.webp',
-    alt: "A photo from Kristen's and James's wedding",
-    title: 'English Wedding: Kristen and James'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230268/studiophotocreation/ch_2v/SPC_0954_v2kyfx.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242710/studiophotocreation/cypriot-weddings/kristia-alexis/SPC_2238_vehdxq.webp',
-    alt: "A photo from Kristia's and Alexis's wedding",
-    title: 'Kristia and Alexis'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230261/studiophotocreation/ch_2v/SPC_0953_fzxuul.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243868/studiophotocreation/wedding-stories/stacey-aaron/SPC_0339_jsmfdp.webp',
-    alt: "A photo from Stacey's and Aaron's wedding",
-    title: 'Stacey and Aaron'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230254/studiophotocreation/ch_2v/SPC_0952_hrgmhg.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242635/studiophotocreation/cypriot-weddings/kata-andreas/SPC_1741_bmmhfi.webp',
-    alt: "A photo from Kata's and Andreas's wedding",
-    title: 'Kata and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230253/studiophotocreation/ch_2v/SPC_0941_ciktlg.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632244008/studiophotocreation/cypriot-weddings/maria-lampros/SPC_2355_v7jz5e.webp',
-    alt: "A photo from Maria's and Lampros's wedding",
-    title: 'Maria and wedding'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230246/studiophotocreation/ch_2v/SPC_0938_l7eaa5.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243600/studiophotocreation/wedding-stories/jemma-carl/CARL_JEMMA_13_j0orvq.webp',
-    alt: "A photo from Jemma's and Carl's wedding",
-    title: 'Jemma and Carl'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230241/studiophotocreation/ch_2v/SPC_0936_rfabk3.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242600/studiophotocreation/cypriot-weddings/jennifer-xaris/SPC_0655_lgvyls.webp',
-    alt: "A photo from Jennifer's and Xaris's wedding",
-    title: 'Jemma and Carl'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230236/studiophotocreation/ch_2v/SPC_0921_xjpt2l.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242635/studiophotocreation/cypriot-weddings/kata-andreas/SPC_1720_opgooy.webp',
-    alt: "A photo from Kata's and Andreas's wedding",
-    title: 'Kata and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230227/studiophotocreation/ch_2v/SPC_0915_cskowp.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242765/studiophotocreation/cypriot-weddings/maria-andreas/SPC_0012_shk4fz.webp',
-    alt: "A photo from Maria's and Andreas's wedding",
-    title: 'Maria and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230226/studiophotocreation/ch_2v/SPC_0912_hw5jyb.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242575/studiophotocreation/cypriot-weddings/christina-andreas/SPC_2340_wpnj1k.webp',
-    alt: "A photo from Christina's and Andreas's wedding",
-    title: 'Christina and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230219/studiophotocreation/ch_2v/SPC_0894_g1xfyp.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242706/studiophotocreation/cypriot-weddings/kristia-alexis/SPC_2059_uns8pr.webp',
-    alt: "A photo from Kristia's and Andreas's wedding",
-    title: 'Kristia and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230219/studiophotocreation/ch_2v/SPC_0881_jayp1e.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243990/studiophotocreation/cypriot-weddings/maria-lampros/SPC_0895_hmruyg.webp',
-    alt: "A photo from Maria's and Lampros's wedding",
-    title: 'Maria and Lampros'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230209/studiophotocreation/ch_2v/SPC_0851_azdoin.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242600/studiophotocreation/cypriot-weddings/jennifer-xaris/SPC_0713_iq3asg.webp',
-    alt: "A photo from Jennifer's and Xaris's wedding",
-    title: 'Jennifer and Xaris'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230208/studiophotocreation/ch_2v/SPC_0844_iicstn.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243209/studiophotocreation/english-weddings/kristen-james/SPC_0885_om2lz1.webp',
-    alt: "A photo from Kristen's and James's wedding",
-    title: 'Kristen and James'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230207/studiophotocreation/ch_2v/SPC_0840_vptios.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639567905/studiophotocreation/english-weddings/christina-kyle.v2/SPC_0260_frjqfc.webp',
-    alt: "A photo from Christina's and Kyle's wedding",
-    title: 'Christina and Kyle'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230200/studiophotocreation/ch_2v/SPC_0839_cxktwa.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639567994/studiophotocreation/english-weddings/danielle-nikole.v2/SPC_0683_auriw7.webp',
-    alt: "A photo from Danielle's and Nikole's wedding",
-    title: 'Danielle and Nikole'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230199/studiophotocreation/ch_2v/SPC_0830_j2ckii.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639568133/studiophotocreation/english-weddings/denika-david.v2/SPC_0144_l7km61.webp',
-    alt: "A photo from Denika's and David's wedding",
-    title: 'Denika and David'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230191/studiophotocreation/ch_2v/SPC_0813_pr67mh.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639568232/studiophotocreation/english-weddings/dianne-terry.v2/SPC_0217_sfkrzx.webp',
-    alt: "A photo from Dianne's and Terry's wedding",
-    title: 'Dianne and Terry'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230180/studiophotocreation/ch_2v/SPC_0802_j12mjo.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1638382630/studiophotocreation/english-weddings/megan-lee/SPC_0500_z1s6mp.webp',
-    alt: "A photo from Megan's and Lee's wedding",
-    title: 'Megan and Lee'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230190/studiophotocreation/ch_2v/SPC_0794_f4h9dn.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243457/studiophotocreation/wedding-stories/beth-david/DAVID_BETH_16_fjkuci.webp',
-    alt: "A photo from Beth's and David's wedding",
-    title: 'Beth and David'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230176/studiophotocreation/ch_2v/SPC_0773_cn2tpx.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243486/studiophotocreation/wedding-stories/farrah-matthew/MATHEW_FARRAH_9_gxwcsh.webp',
-    alt: "A photo from Farrah's and Matthew's wedding",
-    title: 'Farrah and Matthew'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230175/studiophotocreation/ch_2v/SPC_0772_qdas3a.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243545/studiophotocreation/wedding-stories/jade-craig/JADE_CRAIG_1_pajv1c.webp',
-    alt: "A photo from Jade's and Craig's wedding",
-    title: 'Jade and Craig'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230167/studiophotocreation/ch_2v/SPC_0766_h0yskl.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243625/studiophotocreation/wedding-stories/katrina-scott/scott_katrina_1_sdzgzg.webp',
-    alt: "A photo from Katrina's and Scott's wedding",
-    title: 'Katrina and Scott'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230167/studiophotocreation/ch_2v/SPC_0745_h9z2q4.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243669/studiophotocreation/wedding-stories/laura-leigh/LAURA_LEIGH_26_ofvtbq.webp',
-    alt: "A photo from Laura's and Leigh's wedding",
-    title: 'Laura and Leigh'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230159/studiophotocreation/ch_2v/SPC_0722_pcpiqp.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632244411/studiophotocreation/christenings/agapi/SPC_0774_kwvfaq.webp',
-    alt: "A photo from Agapi's christening",
-    title: 'Agapi'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230159/studiophotocreation/ch_2v/SPC_0699_tctuov.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632245916/studiophotocreation/001-002a_lbopxb.webp',
-    alt: "A photo from Ioanna's christening",
-    title: 'Ioanna'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230152/studiophotocreation/ch_2v/SPC_0696_klop88.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632245917/studiophotocreation/001-002b_jqeehk.webp',
-    alt: "A photo from Maria's christening",
-    title: 'Maria'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230151/studiophotocreation/ch_2v/SPC_0695_cuc9bp.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632246022/studiophotocreation/049-050a_aqhqda.webp',
-    alt: "A photo from Marilia's christening",
-    title: 'Marilia'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230145/studiophotocreation/ch_2v/SPC_0690_ubdo6o.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632245995/studiophotocreation/001-002c_nposfn.webp',
-    alt: "A photo from Styliano's christening",
-    title: 'Styliano'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230139/studiophotocreation/ch_2v/SPC_0689_lq3gkg.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632246023/studiophotocreation/001-002d_qzenqj.webp',
-    alt: "A photo from Victoria's christening",
-    title: 'Victoria'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230139/studiophotocreation/ch_2v/SPC_0669_ljiwdb.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567848/studiophotocreation/proposals/Antreas-Athina/SPC_0084_df2zky.webp',
-    alt: "A photo from Andreas's and Athina's proposal",
-    title: 'Andreas and Athina'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230129/studiophotocreation/ch_2v/SPC_0658_mgesab.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568086/studiophotocreation/proposals/Chirag-Priyanka/SPC_0206_bi3mjd.webp',
-    alt: "A photo from Chirag's and Priyanka's proposal",
-    title: 'Chirag and Priyanka'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230128/studiophotocreation/ch_2v/SPC_0652_uxehqa.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568790/studiophotocreation/families/Alexander-Yiana/SPC_0204_xdclrl.webp',
-    alt: "A photo from Alexander's and Yiana's family photoshoot",
-    title: 'Alexander and Yiana'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230128/studiophotocreation/ch_2v/SPC_0633_gnwk8t.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568840/studiophotocreation/families/Angelika-Misha/SPC_0264_i152zi.webp',
-    alt: "A photo from Angelika's and Misha's family photoshoot",
-    title: 'Angelika and Misha'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230117/studiophotocreation/ch_2v/SPC_0626_khjryj.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568988/studiophotocreation/families/Filippos-Emanouela/SPC_0073_tu2w0c.webp',
-    alt: "A photo from Filippos's and Emanouela's family photoshoot",
-    title: 'Filippos and Emanouela'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230118/studiophotocreation/ch_2v/SPC_0624_hdohbu.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636569061/studiophotocreation/families/Galina-Lionid/SPC_0352_nh68ge.webp',
-    alt: "A photo from Galina's and Lionid's family photoshoot",
-    title: 'Galina and Lionid'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230116/studiophotocreation/ch_2v/SPC_0622_agp85r.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636569312/studiophotocreation/families/Maria-Natalie/SPC_0155_hpbe6j.webp',
-    alt: "A photo from Maria's and Natalie's family photoshoot",
-    title: 'Maria and Natalie'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230109/studiophotocreation/ch_2v/SPC_0599_x14z7s.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568166/studiophotocreation/models/Anna/SPC_0040_qfmepy.webp',
-    alt: "A photo from Anna's model photoshoot",
-    title: 'Anna'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230108/studiophotocreation/ch_2v/SPC_0598_npjxli.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568292/studiophotocreation/models/Elena/SPC_0867_uhwvaa.webp',
-    alt: "A photo from Elena's model photoshoot",
-    title: 'Elena'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230101/studiophotocreation/ch_2v/SPC_0586_ym4ren.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568354/studiophotocreation/models/Johanna/SPC_0106-2_uj9ifb.webp',
-    alt: "A photo from Johanna's model photoshoot",
-    title: 'Johanna'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230101/studiophotocreation/ch_2v/SPC_0585_njfz0g.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568481/studiophotocreation/models/Natalie/SPC_0696_hvif3q.webp',
-    alt: "A photo from Natalie's model photoshoot",
-    title: 'Natalie'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230090/studiophotocreation/ch_2v/SPC_0584_idtolj.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568511/studiophotocreation/models/Olga/SPC_0197_chcfzm.webp',
-    alt: "A photo from Olga's model photoshoot",
-    title: 'Olga'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230090/studiophotocreation/ch_2v/SPC_0574_ayt3eg.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568569/studiophotocreation/models/Sveta/SPC_0923_c3iupa.webp',
-    alt: "A photo from Sveta's model photoshoot",
-    title: 'Sveta'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230089/studiophotocreation/ch_2v/SPC_0573_imlms9.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702230002/studiophotocreation/ch_2v/SPC_0565_lyb4ht.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229989/studiophotocreation/ch_2v/SPC_0550_m1gwo2.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229980/studiophotocreation/ch_2v/SPC_0532_stbxnh.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229989/studiophotocreation/ch_2v/SPC_0524_j0x2yx.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229980/studiophotocreation/ch_2v/SPC_0517_gxi1cz.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229972/studiophotocreation/ch_2v/SPC_0505_zni1gc.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229971/studiophotocreation/ch_2v/SPC_0499_etn4v3.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229963/studiophotocreation/ch_2v/SPC_0493_tnslq4.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229963/studiophotocreation/ch_2v/SPC_0482_tejvkt.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229959/studiophotocreation/ch_2v/SPC_0478_dev32r.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229949/studiophotocreation/ch_2v/SPC_0477_iqihiv.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229949/studiophotocreation/ch_2v/SPC_0476_p35t0a.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229950/studiophotocreation/ch_2v/SPC_0468_iwixsp.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229937/studiophotocreation/ch_2v/SPC_0464_g4sxht.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229937/studiophotocreation/ch_2v/SPC_0456_qao21l.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229936/studiophotocreation/ch_2v/SPC_0451_ai3drx.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229926/studiophotocreation/ch_2v/SPC_0440_gxtwip.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229924/studiophotocreation/ch_2v/SPC_0433_jdb2v3.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229924/studiophotocreation/ch_2v/SPC_0430_alvnqd.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229916/studiophotocreation/ch_2v/SPC_0426_yvfd2k.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229916/studiophotocreation/ch_2v/SPC_0422_cg9jsx.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229908/studiophotocreation/ch_2v/SPC_0420_d8spno.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229908/studiophotocreation/ch_2v/SPC_0419_c9r2lq.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229897/studiophotocreation/ch_2v/SPC_0417_gdsiqx.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229896/studiophotocreation/ch_2v/SPC_0401_eklcsu.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229895/studiophotocreation/ch_2v/SPC_0400_zqrayy.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229887/studiophotocreation/ch_2v/SPC_0396_mvaxdl.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229885/studiophotocreation/ch_2v/SPC_0395_gav8g5.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229879/studiophotocreation/ch_2v/SPC_0389_apx4w6.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229874/studiophotocreation/ch_2v/SPC_0387_cjgf2y.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229865/studiophotocreation/ch_2v/SPC_0383_vabfkl.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229856/studiophotocreation/ch_2v/SPC_0382_sqbrto.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229864/studiophotocreation/ch_2v/SPC_0382-2_thv0c0.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229856/studiophotocreation/ch_2v/SPC_0381_fqk5bv.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229847/studiophotocreation/ch_2v/SPC_0380_knjrqh.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229844/studiophotocreation/ch_2v/SPC_0378_qsbnrh.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229835/studiophotocreation/ch_2v/SPC_0374_jtuihz.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229834/studiophotocreation/ch_2v/SPC_0372_d3wwft.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229827/studiophotocreation/ch_2v/SPC_0370_s3qwuj.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229822/studiophotocreation/ch_2v/SPC_0366_uyjznn.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229823/studiophotocreation/ch_2v/SPC_0366-2_ug4skl.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229815/studiophotocreation/ch_2v/SPC_0356_l3jvts.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229815/studiophotocreation/ch_2v/SPC_0355_ptpful.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229809/studiophotocreation/ch_2v/SPC_0342_nwye7c.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229809/studiophotocreation/ch_2v/SPC_0339_e0bxdw.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229801/studiophotocreation/ch_2v/SPC_0334_jxnzwy.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229800/studiophotocreation/ch_2v/SPC_0333_ejhlge.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229802/studiophotocreation/ch_2v/SPC_0333-2_pcysg1.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229795/studiophotocreation/ch_2v/SPC_0277_c3h9jz.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229793/studiophotocreation/ch_2v/SPC_0261_ygq1ox.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229792/studiophotocreation/ch_2v/SPC_0253_sr5ctz.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229788/studiophotocreation/ch_2v/SPC_0219_t9ygkf.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229781/studiophotocreation/ch_2v/SPC_0137_u6wk2y.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229781/studiophotocreation/ch_2v/SPC_0087_sie4vh.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702229781/studiophotocreation/ch_2v/SPC_0042_ivo4np.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228833/studiophotocreation/ch_2v/SPC_0037_iwjyce.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228832/studiophotocreation/ch_2v/SPC_0036_oaq2vm.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228832/studiophotocreation/ch_2v/SPC_0035_lkkcrc.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228832/studiophotocreation/ch_2v/SPC_0034_mwm3be.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228831/studiophotocreation/ch_2v/SPC_0029_resfvj.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228826/studiophotocreation/ch_2v/SPC_0028_h0rdub.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228825/studiophotocreation/ch_2v/SPC_0027_alfdzf.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228825/studiophotocreation/ch_2v/SPC_0025_jjywrg.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228821/studiophotocreation/ch_2v/SPC_0024_hnphrj.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228820/studiophotocreation/ch_2v/SPC_0022_c9hrva.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228820/studiophotocreation/ch_2v/SPC_0022-2_a0xikp.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228820/studiophotocreation/ch_2v/SPC_0020_thmep1.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228816/studiophotocreation/ch_2v/SPC_0018_w4ueca.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228814/studiophotocreation/ch_2v/SPC_0017_w0niw2.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228815/studiophotocreation/ch_2v/SPC_0017-2_fvcsp4.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228812/studiophotocreation/ch_2v/SPC_0015_bjafuv.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228814/studiophotocreation/ch_2v/SPC_0014_ayos7e.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228811/studiophotocreation/ch_2v/SPC_0011_mckaoy.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228811/studiophotocreation/ch_2v/SPC_0009_zhv5cx.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228811/studiophotocreation/ch_2v/SPC_0009-2_jyllpg.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228811/studiophotocreation/ch_2v/SPC_0006_e12qka.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1702228810/studiophotocreation/ch_2v/SPC_0003_t4st8n.webp',
+    alt: 'Photo from a christening in Paphos by StudioPhotoCreation',
+    title: 'Christening'
   }
 ]
 

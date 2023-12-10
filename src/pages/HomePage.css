@@ -9,7 +9,6 @@ main {
 }
 
 .video {
-  border-radius: 3px;
   max-width: calc(100vw - 100px);
 }
 
