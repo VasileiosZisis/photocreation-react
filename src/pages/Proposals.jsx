@@ -2,229 +2,594 @@ import MasonryImageList from '../components/Gallery.jsx'
 
 const itemData = [
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242769/studiophotocreation/cypriot-weddings/maria-andreas/DJI_0025_vpbcjv.webp',
-    alt: "A photo from Maria's and Andreas's wedding",
-    title: 'Maria and Andreas'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568085/studiophotocreation/proposals/Chirag-Priyanka/SPC_0211_i8jygs.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242665/studiophotocreation/cypriot-weddings/kata-andreas/SPC_1903_dcqo69.webp',
-    alt: "A photo from Kata's and Andreas's wedding",
-    title: 'Kata and Andreas'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243187/studiophotocreation/english-weddings/kristen-james/SPC_0516_wxkvdp.webp',
-    alt: "A photo from Kristen's and James's wedding",
-    title: 'English Wedding: Kristen and James'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242710/studiophotocreation/cypriot-weddings/kristia-alexis/SPC_2238_vehdxq.webp',
-    alt: "A photo from Kristia's and Alexis's wedding",
-    title: 'Kristia and Alexis'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243868/studiophotocreation/wedding-stories/stacey-aaron/SPC_0339_jsmfdp.webp',
-    alt: "A photo from Stacey's and Aaron's wedding",
-    title: 'Stacey and Aaron'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242635/studiophotocreation/cypriot-weddings/kata-andreas/SPC_1741_bmmhfi.webp',
-    alt: "A photo from Kata's and Andreas's wedding",
-    title: 'Kata and Andreas'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632244008/studiophotocreation/cypriot-weddings/maria-lampros/SPC_2355_v7jz5e.webp',
-    alt: "A photo from Maria's and Lampros's wedding",
-    title: 'Maria and wedding'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243600/studiophotocreation/wedding-stories/jemma-carl/CARL_JEMMA_13_j0orvq.webp',
-    alt: "A photo from Jemma's and Carl's wedding",
-    title: 'Jemma and Carl'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242600/studiophotocreation/cypriot-weddings/jennifer-xaris/SPC_0655_lgvyls.webp',
-    alt: "A photo from Jennifer's and Xaris's wedding",
-    title: 'Jemma and Carl'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242635/studiophotocreation/cypriot-weddings/kata-andreas/SPC_1720_opgooy.webp',
-    alt: "A photo from Kata's and Andreas's wedding",
-    title: 'Kata and Andreas'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242765/studiophotocreation/cypriot-weddings/maria-andreas/SPC_0012_shk4fz.webp',
-    alt: "A photo from Maria's and Andreas's wedding",
-    title: 'Maria and Andreas'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242575/studiophotocreation/cypriot-weddings/christina-andreas/SPC_2340_wpnj1k.webp',
-    alt: "A photo from Christina's and Andreas's wedding",
-    title: 'Christina and Andreas'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242706/studiophotocreation/cypriot-weddings/kristia-alexis/SPC_2059_uns8pr.webp',
-    alt: "A photo from Kristia's and Andreas's wedding",
-    title: 'Kristia and Andreas'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243990/studiophotocreation/cypriot-weddings/maria-lampros/SPC_0895_hmruyg.webp',
-    alt: "A photo from Maria's and Lampros's wedding",
-    title: 'Maria and Lampros'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632242600/studiophotocreation/cypriot-weddings/jennifer-xaris/SPC_0713_iq3asg.webp',
-    alt: "A photo from Jennifer's and Xaris's wedding",
-    title: 'Jennifer and Xaris'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243209/studiophotocreation/english-weddings/kristen-james/SPC_0885_om2lz1.webp',
-    alt: "A photo from Kristen's and James's wedding",
-    title: 'Kristen and James'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639567905/studiophotocreation/english-weddings/christina-kyle.v2/SPC_0260_frjqfc.webp',
-    alt: "A photo from Christina's and Kyle's wedding",
-    title: 'Christina and Kyle'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639567994/studiophotocreation/english-weddings/danielle-nikole.v2/SPC_0683_auriw7.webp',
-    alt: "A photo from Danielle's and Nikole's wedding",
-    title: 'Danielle and Nikole'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639568133/studiophotocreation/english-weddings/denika-david.v2/SPC_0144_l7km61.webp',
-    alt: "A photo from Denika's and David's wedding",
-    title: 'Denika and David'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1639568232/studiophotocreation/english-weddings/dianne-terry.v2/SPC_0217_sfkrzx.webp',
-    alt: "A photo from Dianne's and Terry's wedding",
-    title: 'Dianne and Terry'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1638382630/studiophotocreation/english-weddings/megan-lee/SPC_0500_z1s6mp.webp',
-    alt: "A photo from Megan's and Lee's wedding",
-    title: 'Megan and Lee'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243457/studiophotocreation/wedding-stories/beth-david/DAVID_BETH_16_fjkuci.webp',
-    alt: "A photo from Beth's and David's wedding",
-    title: 'Beth and David'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243486/studiophotocreation/wedding-stories/farrah-matthew/MATHEW_FARRAH_9_gxwcsh.webp',
-    alt: "A photo from Farrah's and Matthew's wedding",
-    title: 'Farrah and Matthew'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243545/studiophotocreation/wedding-stories/jade-craig/JADE_CRAIG_1_pajv1c.webp',
-    alt: "A photo from Jade's and Craig's wedding",
-    title: 'Jade and Craig'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243625/studiophotocreation/wedding-stories/katrina-scott/scott_katrina_1_sdzgzg.webp',
-    alt: "A photo from Katrina's and Scott's wedding",
-    title: 'Katrina and Scott'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632243669/studiophotocreation/wedding-stories/laura-leigh/LAURA_LEIGH_26_ofvtbq.webp',
-    alt: "A photo from Laura's and Leigh's wedding",
-    title: 'Laura and Leigh'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632244411/studiophotocreation/christenings/agapi/SPC_0774_kwvfaq.webp',
-    alt: "A photo from Agapi's christening",
-    title: 'Agapi'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632245916/studiophotocreation/001-002a_lbopxb.webp',
-    alt: "A photo from Ioanna's christening",
-    title: 'Ioanna'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632245917/studiophotocreation/001-002b_jqeehk.webp',
-    alt: "A photo from Maria's christening",
-    title: 'Maria'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632246022/studiophotocreation/049-050a_aqhqda.webp',
-    alt: "A photo from Marilia's christening",
-    title: 'Marilia'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632245995/studiophotocreation/001-002c_nposfn.webp',
-    alt: "A photo from Styliano's christening",
-    title: 'Styliano'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1632246023/studiophotocreation/001-002d_qzenqj.webp',
-    alt: "A photo from Victoria's christening",
-    title: 'Victoria'
-  },
-  {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567848/studiophotocreation/proposals/Antreas-Athina/SPC_0084_df2zky.webp',
-    alt: "A photo from Andreas's and Athina's proposal",
-    title: 'Andreas and Athina'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568085/studiophotocreation/proposals/Chirag-Priyanka/SPC_0209_ph5cwv.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
     url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568086/studiophotocreation/proposals/Chirag-Priyanka/SPC_0206_bi3mjd.webp',
-    alt: "A photo from Chirag's and Priyanka's proposal",
-    title: 'Chirag and Priyanka'
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568790/studiophotocreation/families/Alexander-Yiana/SPC_0204_xdclrl.webp',
-    alt: "A photo from Alexander's and Yiana's family photoshoot",
-    title: 'Alexander and Yiana'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568084/studiophotocreation/proposals/Chirag-Priyanka/SPC_0182_a3jv8i.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568840/studiophotocreation/families/Angelika-Misha/SPC_0264_i152zi.webp',
-    alt: "A photo from Angelika's and Misha's family photoshoot",
-    title: 'Angelika and Misha'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568085/studiophotocreation/proposals/Chirag-Priyanka/SPC_0180_hvrp3g.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568988/studiophotocreation/families/Filippos-Emanouela/SPC_0073_tu2w0c.webp',
-    alt: "A photo from Filippos's and Emanouela's family photoshoot",
-    title: 'Filippos and Emanouela'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568085/studiophotocreation/proposals/Chirag-Priyanka/SPC_0171_bmnthu.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636569061/studiophotocreation/families/Galina-Lionid/SPC_0352_nh68ge.webp',
-    alt: "A photo from Galina's and Lionid's family photoshoot",
-    title: 'Galina and Lionid'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568084/studiophotocreation/proposals/Chirag-Priyanka/SPC_0162_kxbzuz.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636569312/studiophotocreation/families/Maria-Natalie/SPC_0155_hpbe6j.webp',
-    alt: "A photo from Maria's and Natalie's family photoshoot",
-    title: 'Maria and Natalie'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568086/studiophotocreation/proposals/Chirag-Priyanka/SPC_0162_2_fw5sz2.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568166/studiophotocreation/models/Anna/SPC_0040_qfmepy.webp',
-    alt: "A photo from Anna's model photoshoot",
-    title: 'Anna'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568083/studiophotocreation/proposals/Chirag-Priyanka/SPC_0155_udtmyx.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568292/studiophotocreation/models/Elena/SPC_0867_uhwvaa.webp',
-    alt: "A photo from Elena's model photoshoot",
-    title: 'Elena'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568082/studiophotocreation/proposals/Chirag-Priyanka/SPC_0152_qa6avu.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568354/studiophotocreation/models/Johanna/SPC_0106-2_uj9ifb.webp',
-    alt: "A photo from Johanna's model photoshoot",
-    title: 'Johanna'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568081/studiophotocreation/proposals/Chirag-Priyanka/SPC_0151_hnypdu.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568481/studiophotocreation/models/Natalie/SPC_0696_hvif3q.webp',
-    alt: "A photo from Natalie's model photoshoot",
-    title: 'Natalie'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568080/studiophotocreation/proposals/Chirag-Priyanka/SPC_0149_ol6t4q.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568511/studiophotocreation/models/Olga/SPC_0197_chcfzm.webp',
-    alt: "A photo from Olga's model photoshoot",
-    title: 'Olga'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568082/studiophotocreation/proposals/Chirag-Priyanka/SPC_0148_w1eve2.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   },
   {
-    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568569/studiophotocreation/models/Sveta/SPC_0923_c3iupa.webp',
-    alt: "A photo from Sveta's model photoshoot",
-    title: 'Sveta'
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568082/studiophotocreation/proposals/Chirag-Priyanka/SPC_0138_k5c0oq.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568081/studiophotocreation/proposals/Chirag-Priyanka/SPC_0132_vqq6k1.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568077/studiophotocreation/proposals/Chirag-Priyanka/SPC_0130_fvtcue.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568080/studiophotocreation/proposals/Chirag-Priyanka/SPC_0129_unfes6.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568079/studiophotocreation/proposals/Chirag-Priyanka/SPC_0126_oxohsb.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568076/studiophotocreation/proposals/Chirag-Priyanka/SPC_0125_dvijps.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568076/studiophotocreation/proposals/Chirag-Priyanka/SPC_0123_tafdva.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568078/studiophotocreation/proposals/Chirag-Priyanka/SPC_0122_knat9a.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568074/studiophotocreation/proposals/Chirag-Priyanka/SPC_0119_jef4dc.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568076/studiophotocreation/proposals/Chirag-Priyanka/SPC_0115_t4xv1h.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568073/studiophotocreation/proposals/Chirag-Priyanka/SPC_0114_vfdtq9.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568073/studiophotocreation/proposals/Chirag-Priyanka/SPC_0114_2_fis01f.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568073/studiophotocreation/proposals/Chirag-Priyanka/SPC_0112_ix7zyv.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568073/studiophotocreation/proposals/Chirag-Priyanka/SPC_0111_ubaazr.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568072/studiophotocreation/proposals/Chirag-Priyanka/SPC_0109_le3vwx.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568071/studiophotocreation/proposals/Chirag-Priyanka/SPC_0107_wolcrn.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568072/studiophotocreation/proposals/Chirag-Priyanka/SPC_0105_tlenb6.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568071/studiophotocreation/proposals/Chirag-Priyanka/SPC_0104_raf0l3.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568069/studiophotocreation/proposals/Chirag-Priyanka/SPC_0101_ffamra.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568071/studiophotocreation/proposals/Chirag-Priyanka/SPC_0098_lzjmgr.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568070/studiophotocreation/proposals/Chirag-Priyanka/SPC_0095_zacue3.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568070/studiophotocreation/proposals/Chirag-Priyanka/SPC_0092_jizupd.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568083/studiophotocreation/proposals/Chirag-Priyanka/SPC_0092_2_nun1qq.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568067/studiophotocreation/proposals/Chirag-Priyanka/SPC_0091_fsaarh.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568069/studiophotocreation/proposals/Chirag-Priyanka/SPC_0090_qskydb.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568067/studiophotocreation/proposals/Chirag-Priyanka/SPC_0088_vlklzc.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568067/studiophotocreation/proposals/Chirag-Priyanka/SPC_0088_2_ct6o0y.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568065/studiophotocreation/proposals/Chirag-Priyanka/SPC_0085_mujr8v.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568065/studiophotocreation/proposals/Chirag-Priyanka/SPC_0084_xdnow9.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568063/studiophotocreation/proposals/Chirag-Priyanka/SPC_0083_p5kwwc.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568068/studiophotocreation/proposals/Chirag-Priyanka/SPC_0082_u5ytk5.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568065/studiophotocreation/proposals/Chirag-Priyanka/SPC_0078_ymid4x.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568067/studiophotocreation/proposals/Chirag-Priyanka/SPC_0072_kodljq.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568064/studiophotocreation/proposals/Chirag-Priyanka/SPC_0071_we5aft.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568063/studiophotocreation/proposals/Chirag-Priyanka/SPC_0066_ufmcdg.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568061/studiophotocreation/proposals/Chirag-Priyanka/SPC_0063_mbpn4s.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568061/studiophotocreation/proposals/Chirag-Priyanka/SPC_0062_yerbyw.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568060/studiophotocreation/proposals/Chirag-Priyanka/SPC_0058_mjqimg.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568059/studiophotocreation/proposals/Chirag-Priyanka/SPC_0056_uqcflw.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568059/studiophotocreation/proposals/Chirag-Priyanka/SPC_0053_nvxsf3.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568060/studiophotocreation/proposals/Chirag-Priyanka/SPC_0052_iuyool.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568059/studiophotocreation/proposals/Chirag-Priyanka/SPC_0050_xv3vug.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568058/studiophotocreation/proposals/Chirag-Priyanka/SPC_0048_tawdtw.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568058/studiophotocreation/proposals/Chirag-Priyanka/SPC_0046_u2pl36.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568057/studiophotocreation/proposals/Chirag-Priyanka/SPC_0045_tauisl.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568058/studiophotocreation/proposals/Chirag-Priyanka/SPC_0044_mynxu7.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568056/studiophotocreation/proposals/Chirag-Priyanka/SPC_0043_yhkwnw.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568055/studiophotocreation/proposals/Chirag-Priyanka/SPC_0038_giohqu.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568055/studiophotocreation/proposals/Chirag-Priyanka/SPC_0036_axtkyc.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568054/studiophotocreation/proposals/Chirag-Priyanka/SPC_0036_2_yjyrli.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568056/studiophotocreation/proposals/Chirag-Priyanka/SPC_0034_zm0hrx.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568059/studiophotocreation/proposals/Chirag-Priyanka/SPC_0032_xe9kn9.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568051/studiophotocreation/proposals/Chirag-Priyanka/SPC_0032_2_fih6uz.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568052/studiophotocreation/proposals/Chirag-Priyanka/SPC_0030_iueaqh.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568051/studiophotocreation/proposals/Chirag-Priyanka/SPC_0026_a3dmy3.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568051/studiophotocreation/proposals/Chirag-Priyanka/SPC_0025_fjhzzd.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568049/studiophotocreation/proposals/Chirag-Priyanka/SPC_0022_iacimi.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568048/studiophotocreation/proposals/Chirag-Priyanka/SPC_0015_xz1vgh.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568050/studiophotocreation/proposals/Chirag-Priyanka/SPC_0013_gn0jpx.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568052/studiophotocreation/proposals/Chirag-Priyanka/SPC_0010_iixsx4.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568052/studiophotocreation/proposals/Chirag-Priyanka/SPC_0005_xhuqle.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636568050/studiophotocreation/proposals/Chirag-Priyanka/SPC_0003_thtk6y.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567855/studiophotocreation/proposals/Antreas-Athina/SPC_0218_fpz7pv.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567855/studiophotocreation/proposals/Antreas-Athina/SPC_0206_xts7c9.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567855/studiophotocreation/proposals/Antreas-Athina/SPC_0199_wqybxl.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567853/studiophotocreation/proposals/Antreas-Athina/SPC_0195_goq5b9.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567856/studiophotocreation/proposals/Antreas-Athina/SPC_0192_xlex1m.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567854/studiophotocreation/proposals/Antreas-Athina/SPC_0179_hidv33.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567856/studiophotocreation/proposals/Antreas-Athina/SPC_0171_ywpba8.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567852/studiophotocreation/proposals/Antreas-Athina/SPC_0170_zbbe3s.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567852/studiophotocreation/proposals/Antreas-Athina/SPC_0153_dwquub.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567854/studiophotocreation/proposals/Antreas-Athina/SPC_0150_rzkvc8.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567852/studiophotocreation/proposals/Antreas-Athina/SPC_0145_mlc9wm.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567852/studiophotocreation/proposals/Antreas-Athina/SPC_0142_zzcd3e.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567851/studiophotocreation/proposals/Antreas-Athina/SPC_0140_lfk4ab.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567850/studiophotocreation/proposals/Antreas-Athina/SPC_0105_tuquik.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567850/studiophotocreation/proposals/Antreas-Athina/SPC_0103_jjcv2p.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567849/studiophotocreation/proposals/Antreas-Athina/SPC_0099_knf7mc.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567851/studiophotocreation/proposals/Antreas-Athina/SPC_0096_ojwwir.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567848/studiophotocreation/proposals/Antreas-Athina/SPC_0090_fpf3uv.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567849/studiophotocreation/proposals/Antreas-Athina/SPC_0089_w6g7jo.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567848/studiophotocreation/proposals/Antreas-Athina/SPC_0084_df2zky.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567850/studiophotocreation/proposals/Antreas-Athina/SPC_0082_o9nhhm.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567847/studiophotocreation/proposals/Antreas-Athina/SPC_0079_smxc3k.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567846/studiophotocreation/proposals/Antreas-Athina/SPC_0077_nhuph9.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567846/studiophotocreation/proposals/Antreas-Athina/SPC_0075_zucips.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567847/studiophotocreation/proposals/Antreas-Athina/SPC_0073_c2rxyz.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567845/studiophotocreation/proposals/Antreas-Athina/SPC_0069_avkuwb.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567846/studiophotocreation/proposals/Antreas-Athina/SPC_0061_b17lep.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567843/studiophotocreation/proposals/Antreas-Athina/SPC_0058_nli4es.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567846/studiophotocreation/proposals/Antreas-Athina/SPC_0053_hptrk7.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567843/studiophotocreation/proposals/Antreas-Athina/SPC_0050_xibiwe.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567843/studiophotocreation/proposals/Antreas-Athina/SPC_0048_txdqgu.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567843/studiophotocreation/proposals/Antreas-Athina/SPC_0044_lm99t7.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567842/studiophotocreation/proposals/Antreas-Athina/SPC_0040_jdttwd.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567845/studiophotocreation/proposals/Antreas-Athina/SPC_0038_t0br1v.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567841/studiophotocreation/proposals/Antreas-Athina/SPC_0037_fmtrab.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567860/studiophotocreation/proposals/Antreas-Athina/SPC_0035_rs3x87.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567860/studiophotocreation/proposals/Antreas-Athina/SPC_0033_pvx5pe.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567859/studiophotocreation/proposals/Antreas-Athina/SPC_0031_yn6dmn.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567860/studiophotocreation/proposals/Antreas-Athina/SPC_0028_bvfik7.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567861/studiophotocreation/proposals/Antreas-Athina/SPC_0023_otrcjn.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567858/studiophotocreation/proposals/Antreas-Athina/SPC_0021_e2plot.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567857/studiophotocreation/proposals/Antreas-Athina/SPC_0019_qlp1oo.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
+  },
+  {
+    url: 'https://res.cloudinary.com/dmdbza74n/image/upload/v1636567859/studiophotocreation/proposals/Antreas-Athina/SPC_0016_eblm4e.webp',
+    alt: 'Photo from a proposal',
+    title: 'Proposal Photoshoot'
   }
 ]
 
