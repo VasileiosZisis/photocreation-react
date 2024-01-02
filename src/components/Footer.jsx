@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 const Footer = () => {
@@ -58,18 +59,13 @@ const Footer = () => {
       </div>
       <div className='footer-text-div'>
         <p>
-          Copyright © 2023 Photography Dimitris Domouchtsis/Studio Photo
+          Copyright © 2024 Photography Dimitris Domouchtsis/Studio Photo
           Creation
         </p>
         <p>
-          This website uses{' '}
-          <a
-            className='footer-a'
-            href='https://policies.google.com/technologies/partner-sites'
-            target='_blank'
-          >
-            Google Analytics
-          </a>
+          <Link to='/privacy-policy' className='footer-a'>
+            Privacy Policy
+          </Link>
         </p>
         <p>
           Created by{' '}
