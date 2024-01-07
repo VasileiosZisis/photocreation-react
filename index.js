@@ -4,9 +4,7 @@ import cloudinary from 'cloudinary';
 
 async function createFile(filename) {
   cloudinary.v2.search
-    .expression(
-      'folder:studiophotocreation/proposals/*' // add your folder
-    )
+    .expression('folder:studiophotocreation/proposals/*')
     .sort_by('public_id', 'desc')
     .max_results(500)
     .next_cursor()

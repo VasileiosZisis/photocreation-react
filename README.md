@@ -1,5 +1,17 @@
-# Photocreation-react
+# Studio Photocreation
 
-Temporary link <https://photo-creation-react.onrender.com/>
+Visit the website [here](https://www.studiophotocreationbyd.com/)
 
-This is still a work in progress. It is a new design for <https://www.studiophotocreationbyd.com/> made with react in vite.
+### A portfolio website for a wedding photographer.
+
+A simple portfolio website made with react.
+
+![Intro](public/assets/studiophotocreationbyd-react.webp)
+
+It includes the following:
+
+- Material UI for the grid
+- React Helmet for SEO
+- React Awesome-Lightbox for the image modals
+
+![Artboard](public/assets/Artboard.png)
