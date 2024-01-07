@@ -1,4 +1,5 @@
 import MasonryImageList from '../components/Gallery.jsx'
+import MetaTags from '../components/MetaTags.jsx'
 
 const itemData = [
   {
@@ -614,6 +615,17 @@ const itemData = [
 ]
 
 const Christenings = () => {
-  return <MasonryImageList itemData={itemData} />
+  return (
+    <>
+      <MetaTags
+        metatitle={'Christening photos - Studio Photo Creation by D'}
+        metadescription={
+          'Christening photos, from wedding photographer Dimitris Domouchtsis'
+        }
+        metaurl={'https://www.studiophotocreationbyd.com/christenings'}
+      />
+      <MasonryImageList itemData={itemData} />
+    </>
+  )
 }
 export default Christenings
