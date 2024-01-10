@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <section className='footer-section'>
+    <footer className='footer-section'>
       <div className='footer-icons'>
         <a href='https://www.facebook.com/DomouchtsisDimitris' target='_blank'>
           <svg
@@ -78,7 +78,7 @@ const Footer = () => {
           </a>
         </p>
       </div>
-    </section>
+    </footer>
   )
 }
 
