@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './CategoryContainer.css'
 
 const CategoryContainer = ({
@@ -6,7 +7,8 @@ const CategoryContainer = ({
   top = 0,
   left = 0,
   title,
-  src
+  src,
+  linkto
 }) => {
   const aStyle = {
     position: 'absolute',
@@ -26,7 +28,7 @@ const CategoryContainer = ({
         <h3 style={h3Size} className='categories-h3'>
           {title}
         </h3>
-        <a href='/' style={aStyle} className='categories-a'>
+        <Link to={linkto} style={aStyle} className='categories-a'>
           <div className='categories-div'>
             <p className='categories-p'>VIEW ALL</p>
             <img
@@ -36,11 +38,11 @@ const CategoryContainer = ({
               role='presentation'
             />
           </div>
-        </a>
+        </Link>
       </div>
       <div className='mobile'>
         <h3 className='categories-h3'>{title}</h3>
-        <a href='/' className='categories-a'>
+        <Link to={linkto} className='categories-a'>
           <div className='categories-div'>
             <p className='categories-p'>VIEW ALL</p>
             <img
@@ -50,7 +52,7 @@ const CategoryContainer = ({
               role='presentation'
             />
           </div>
-        </a>
+        </Link>
       </div>
     </>
   )

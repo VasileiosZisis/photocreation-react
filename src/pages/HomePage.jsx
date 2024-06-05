@@ -124,6 +124,7 @@ const HomePage = () => {
             height={'20%'}
             top={'10%'}
             left={'15%'}
+            linkto={'/cypriot-weddings'}
           />
           <CategoryContainer
             src={
@@ -134,6 +135,7 @@ const HomePage = () => {
             height={'30%'}
             top={'7%'}
             left={'60%'}
+            linkto={'/english-weddings'}
           />
           <CategoryContainer
             src={
@@ -144,6 +146,7 @@ const HomePage = () => {
             height={'20%'}
             top={'35%'}
             left={'10%'}
+            linkto={'/christenings'}
           />
           <CategoryContainer
             src={
@@ -154,6 +157,7 @@ const HomePage = () => {
             height={'20%'}
             top={'42%'}
             left={'50%'}
+            linkto={'/proposals'}
           />
           <CategoryContainer
             src={
@@ -164,6 +168,7 @@ const HomePage = () => {
             height={'30%'}
             top={'62%'}
             left={'10%'}
+            linkto={'/families'}
           />
           <CategoryContainer
             src={
@@ -174,6 +179,7 @@ const HomePage = () => {
             height={'20%'}
             top={'68%'}
             left={'55%'}
+            linkto={'/models'}
           />
         </section>
         <section className='contact-section'>

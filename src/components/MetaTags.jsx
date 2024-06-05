@@ -6,7 +6,7 @@ const MetaTags = ({ metatitle, metadescription, metaurl }) => {
     <Helmet>
       <title>{metatitle}</title>
       <meta name='description' content={metadescription} />
-      <link rel='canonical' href='metaurl' />
+      <link rel='canonical' href={metaurl} />
       <meta property='og:title' content={metatitle} />
       <meta property='og:description' content={metadescription} />
       <meta property='og:url' content={metaurl} />
