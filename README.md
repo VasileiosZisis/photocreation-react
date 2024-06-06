@@ -13,5 +13,6 @@ It includes the following:
 - Material UI for the grid
 - React Helmet for SEO
 - React Awesome-Lightbox for the image modals
+- React-Intersection-Observer for the animations
 
 ![Artboard](public/assets/Artboard.png)
