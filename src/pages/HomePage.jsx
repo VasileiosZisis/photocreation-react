@@ -2,8 +2,12 @@ import './HomePage.css'
 import CategoryContainer from '../components/CategoryContainer'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import { useInView } from 'react-intersection-observer'
 
 const HomePage = () => {
+  const { ref, inView } = useInView({
+    threshold: 0
+  })
   return (
     <>
       <Helmet>
@@ -81,8 +85,8 @@ const HomePage = () => {
             </video>
           </div>
         </section>
-        <section className='transition-section'>
-          <p className='transition-p-left'>
+        <section ref={ref} className='transition-section'>
+          <p className={inView ? 'transition-p-left' : ''}>
             Providing you the&nbsp;
             <br /> <span className='transition-span'>finest footage</span>
             &nbsp;of
@@ -91,7 +95,7 @@ const HomePage = () => {
             className='transition-image-left'
             src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632242600/studiophotocreation/cypriot-weddings/jennifer-xaris/SPC_0655_lgvyls.webp'
           />
-          <p className='transition-p-right'>
+          <p className={inView ? 'transition-p-right' : ''}>
             your&nbsp;
             <span className='transition-span'>
               wedding <br />
@@ -104,7 +108,7 @@ const HomePage = () => {
             className='transition-image-mid'
             src='https://res.cloudinary.com/dmdbza74n/image/upload/v1632244008/studiophotocreation/cypriot-weddings/maria-lampros/SPC_2355_v7jz5e.webp'
           />
-          <p className='transition-p-bottom'>
+          <p className={inView ? 'transition-p-bottom' : ''}>
             any other <span className='transition-span'>celebration</span>{' '}
             <br />
             &nbsp;in photo and video

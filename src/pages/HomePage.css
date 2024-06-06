@@ -33,8 +33,17 @@ main {
   font-size: clamp(2rem, 3vw, 3vw);
   font-family: 'Playfair Display', serif;
   position: absolute;
-  top: 22%;
+  top: 32%;
+  opacity: 0;
   left: 17%;
+  animation: moveUp1 1.2s ease-in-out forwards;
+}
+
+@keyframes moveUp1 {
+  to {
+    top: 22%;
+    opacity: 1;
+  }
 }
 
 .transition-p-right {
@@ -45,8 +54,17 @@ main {
   font-size: clamp(2rem, 3vw, 3vw);
   font-family: 'Playfair Display', serif;
   position: absolute;
-  top: 53%;
+  top: 58%;
   left: 65%;
+  opacity: 0;
+  animation: moveUp2 1.7s ease-in-out forwards;
+}
+
+@keyframes moveUp2 {
+  to {
+    top: 48%;
+    opacity: 1;
+  }
 }
 
 .transition-p-bottom {
@@ -57,8 +75,17 @@ main {
   font-size: clamp(2rem, 3vw, 3vw);
   font-family: 'Playfair Display', serif;
   position: absolute;
-  top: 75%;
+  top: 85%;
+  opacity: 0;
   left: 35%;
+  animation: moveUp3 2.4s ease-in-out forwards;
+}
+
+@keyframes moveUp3 {
+  to {
+    top: 75%;
+    opacity: 1;
+  }
 }
 
 .transition-image-left {
