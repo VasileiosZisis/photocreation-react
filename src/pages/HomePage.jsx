@@ -48,29 +48,6 @@ const HomePage = () => {
     }`}
         </script>
         {/* End Schema */}
-
-        <meta
-          name='description'
-          content='A wedding, christening and portrait photographer located in Paphos, Cyprus. 
-        Studio Photo Creation by Dimitris Domouchtsis.'
-        />
-        <link rel='canonical' href='https://www.studiophotocreationbyd.com/' />
-        <title>
-          Wedding Photographer in Paphos, Cyprus - Studio Photo Creation by D
-        </title>
-        <meta
-          property='og:title'
-          content='Wedding Photographer in Paphos, Cyprus - Studio Photo Creation by D'
-        />
-        <meta
-          property='og:description'
-          content='A portrait, christening and wedding photographer located in Paphos, Cyprus. 
-    Studio Photo Creation by Dimitris Domouchtsis.'
-        />
-        <meta
-          property='og:url'
-          content='https://www.studiophotocreationbyd.com/'
-        />
       </Helmet>
 
       <main>
